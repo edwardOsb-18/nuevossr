@@ -7,6 +7,9 @@ export default defineNuxtConfig({
     "/contacto":{ssr:false},
     "/nuevo":{prerender:true},
     "/[id]":{ssr:false}
+  },
+  nitro:{
+    plugins:["~/server/index.ts"]
   }
   
 })
