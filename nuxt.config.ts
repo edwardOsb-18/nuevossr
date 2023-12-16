@@ -8,8 +8,6 @@ export default defineNuxtConfig({
     "/nuevo":{prerender:true},
     "/[id]":{ssr:false}
   },
-  nitro:{
-    plugins:["~/server/index.ts"]
-  }
+ 
   
 })
